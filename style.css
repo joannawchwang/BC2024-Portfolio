@@ -1,10 +1,13 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
+li {
+    display:inline-block;
+}
 
-li{
-    display:inline;
+.navebar a{
+   display:flex;
+   padding:12px;
+   text-decoration: none;
+   background-color: lightgreen;
+   color:black;
+   border-radius: 25px;
+   align-content: center;
 }
