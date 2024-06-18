@@ -2,12 +2,30 @@ li {
     display:inline-block;
 }
 
-.navebar a{
+.navbar a{
    display:flex;
    padding:12px;
    text-decoration: none;
-   background-color: lightgreen;
+   background-color: white;
    color:black;
    border-radius: 25px;
-   align-content: center;
+
+}
+
+.navbar a.active{
+    color:black;
+    background-color: lightgreen;
+}
+
+.navbar {
+    text-align: center;
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+
+div {
+    animation: mymove 5s infinite;
 }
