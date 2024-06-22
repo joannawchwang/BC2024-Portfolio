@@ -28,9 +28,9 @@ li {
     margin-left: 20px;
 } 
 
-.contact-infos {
-    display:flex;
-    justify-content:space-around;
+.contact-info {
+    display: flex;
+    justify-content: space-around;
     position: absolute;
     width: 100%;
     bottom: 40px;
@@ -65,5 +65,41 @@ body {
     background-image: url("https://imgs.699pic.com/images/600/171/161.jpg!list1x.v2");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
+}
+
+.contact-info {
+    animation-duration: 2.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.profile-pic {
+    width: 40%;
+}
+
+.home-info {
+    animation-duration: 1.5s;
+    animation-name: dropIn;
+}
+
+@keyframes dropIn {
+    from {
+        transform: translateY(-500px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
 }
