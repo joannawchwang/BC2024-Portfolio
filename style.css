@@ -23,8 +23,6 @@ li {
 }
 
 .navbar a {
-    margin-top: 10px;
-    margin-bottom: 10px;
     margin-left: 20px;
 } 
 
@@ -69,7 +67,7 @@ body {
 }
 
 .contact-info {
-    animation-duration: 2.5s;
+    animation-duration: 2s;
     animation-name: slidein;
 }
 
@@ -87,10 +85,11 @@ body {
 
 .profile-pic {
     width: 40%;
+    border-radius: 50%;
 }
 
 .home-info {
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-name: dropIn;
 }
 
@@ -102,4 +101,14 @@ body {
     to {
         transform: translateY(0);
     }
+}
+
+img {
+    width:20%;
+}
+
+.skill-img {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(185, 185, 148, 0.75);
 }
