@@ -13,13 +13,13 @@ li {
 
 .navbar a.active{
     color:black;
-    background-color: rgb(244, 224, 126, 0.75);
+    background-color: rgba(65, 200, 237, 0.75);
 }
 
 .navbar {
     text-align: center;
     border-radius: 40px;
-    background-color: rgb(241, 241, 194, 0.75);
+    background-color: rgba(197, 224, 239, 0.75);
 }
 
 .navbar a {
@@ -32,19 +32,17 @@ li {
     position: absolute;
     width: 100%;
     bottom: 40px;
-    border: 3px solid #d3e3af;
-    background-color: rgb(232, 225, 199, 0.75);
+    border: 3px solid #87dfe5;
+    background-color: rgba(182, 216, 236, 0.75);
     border-radius: 10px;
     border-width: 60%;
 }
 
 .section {
-    margin-top: 10px
+    margin-top: 10px;
 }
 
-h1 {
-    color:#f4f6f0
-}
+
 
 .contact-img {
     display: block;
@@ -60,14 +58,14 @@ h2 {
 }
 
 body {
-    background-image: url("https://imgs.699pic.com/images/600/171/161.jpg!list1x.v2");
+    background-image: url("https://pic.616pic.com/bg_w1180/00/00/19/6WkqlcG4xr.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .contact-info {
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-name: slidein;
 }
 
@@ -86,12 +84,12 @@ body {
 .profile-pic {
     width: 40%;
     border-radius: 50%;
+    text-align:center;
 }
 
 .home-info {
     animation-duration: 1s;
     animation-name: dropIn;
-    display: flex;
 }
 
 @keyframes dropIn {
@@ -104,11 +102,59 @@ body {
     }
 }
 
+.skill-info {
+    animation-duration: 1s;
+    animation-name: dropIn;
+}
+@keyframes dropIn {
+    from {
+        transform: translateY(-500px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.name-title {
+    color: black;
+    text-align: center;
+    background-color: rgb(224, 255, 251);
+}
+
+.name-title h4, h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pic-info {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+h1 {
+    font-family: Bradley Hand, cursive;
+    font-size: 70px;
+}
+
+.skill-info h1{
+    font-size: 150%;
+}
+
 img {
     width:20%;
 }
 
 .skill-img {
+    padding-left: 100px;
+    padding-right:100px;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     background-color: rgb(185, 185, 148, 0.75);
