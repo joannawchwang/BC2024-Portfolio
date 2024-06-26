@@ -91,6 +91,7 @@ body {
 .home-info {
     animation-duration: 1s;
     animation-name: dropIn;
+    display: flex;
 }
 
 @keyframes dropIn {
