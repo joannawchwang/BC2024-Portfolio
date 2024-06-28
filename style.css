@@ -22,6 +22,14 @@ li {
     background-color: rgba(197, 224, 239, 0.75);
 }
 
+.navbar a{
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    background-color: #c8eaf5;
+}
+
 .navbar a {
     margin-left: 20px;
 } 
@@ -52,10 +60,19 @@ li {
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 20px;
     font-style: oblique;
     color:rgb(47, 36, 36);
 }
+
+.project-title h2,
+.skill-title h2,
+.contact-title h2,
+.about-title h2 {
+    font-size: 30px;
+    color: darkblue;
+}
+
 
 body {
     background-image: url("https://pic.616pic.com/bg_w1180/00/00/19/6WkqlcG4xr.jpg");
@@ -83,7 +100,7 @@ body {
 
 .profile-pic {
     width: 40%;
-    border-radius: 50%;
+    border-radius: 100%;
     text-align:center;
 }
 
@@ -157,5 +174,80 @@ img {
     width: 90%;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(185, 185, 148, 0.75);
+    background-color: rgba(159, 193, 208, 0.75);
+}
+
+
+
+.asl-web,
+.quiz,
+.adv-game {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    border: 3px solid #17969f;
+    /* transition: width 1s, height 1s; */
+}
+
+
+
+
+.asl-web:hover,
+.quiz:hover,
+.adv-game:hover {
+    transform: scale(1.1);
+}
+
+
+.project-title,
+.project-info {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.asl-web,
+.adv-game,
+.quiz {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* .adv-img {
+    margin-left: 175px;
+}
+
+.quiz-img {
+    margin-left: 82px;
+}*/
+
+/* .adv-game h2{
+    margin-left: 40px;
+}  */
+
+
+.adv-img {
+    margin-left: 40px
+}
+.a-tag {
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+
+
+
+.h2-tag {
+    width: 50%;
+    font-size: 15px 
+}
+
+.adv-img, 
+.quiz-img,
+.asl-img {
+    width: 50%
 }
