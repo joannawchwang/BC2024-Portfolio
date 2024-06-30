@@ -50,6 +50,9 @@ li {
     margin-top: 10px;
 }
 
+.more {
+    margin-top: 70px
+}
 
 
 .contact-img {
@@ -187,15 +190,19 @@ img {
     background-color: lightblue;
     border: 3px solid #17969f;
     /* transition: width 1s, height 1s; */
+
 }
 
+.asl-img,
+.quiz-img,
+.adv-img {
+    transition: 1s;
+}
 
-
-
-.asl-web:hover,
-.quiz:hover,
-.adv-game:hover {
-    transform: scale(1.1);
+.asl-img:hover,
+.quiz-img:hover,
+.adv-img:hover {
+    transform: scale(1.03);
 }
 
 
@@ -249,5 +256,7 @@ img {
 .adv-img, 
 .quiz-img,
 .asl-img {
-    width: 50%
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
