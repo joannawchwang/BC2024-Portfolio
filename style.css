@@ -72,7 +72,8 @@ h2 {
 .skill-title h2,
 .contact-title h2,
 .about-title h2,
-.about-info h2{
+.about-info h2,
+.source-info h2{
     font-size: 30px;
     color: darkblue;
 }
@@ -267,5 +268,12 @@ img {
 }
 
 .py-quiz {
-    width: 100%;
+    width: 100%
+}
+
+.source-info {
+    background-color: rgba(197, 224, 239, 0.75);
+    border: 3px solid #87dfe5;
+    border-radius: 10px;
+    padding-left: 10px;
 }
