@@ -71,7 +71,8 @@ h2 {
 .project-title h2,
 .skill-title h2,
 .contact-title h2,
-.about-title h2 {
+.about-title h2,
+.about-info h2{
     font-size: 30px;
     color: darkblue;
 }
@@ -211,6 +212,10 @@ img {
     animation: fadeIn 2s;
 }
 
+.about-info {
+    animation: fadeIn 2s;
+}
+
 @keyframes fadeIn {
     0%{opacity: 0;}
     100%{opacity: 1;}
@@ -259,4 +264,8 @@ img {
     width: 50%;
     margin-top: 5px;
     margin-bottom: 3px;
+}
+
+.py-quiz {
+    width: 100%;
 }
