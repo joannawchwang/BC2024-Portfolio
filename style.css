@@ -137,12 +137,16 @@ body {
 .name-title {
     color: black;
     text-align: center;
-    background-color: rgb(224, 255, 251);
+    background-color: rgba(197, 224, 239, 0.75);
 }
 
 .name-title h4, h1 {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.name-title {
+    padding-bottom: 5px;
 }
 
 .pic-info {
@@ -264,5 +268,5 @@ img {
 
 .about-info {
     margin-left: 50px;
-    margin-right: 50px
+    margin-right: 50px;
 }
